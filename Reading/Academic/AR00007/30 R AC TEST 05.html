@@ -47,33 +47,107 @@
     <section style="border: 1px solid #000; padding: 10px; margin-bottom: 20px;">
       <p style="font-size: smaller; font-weight: bold;">Questions 1–6</p>
       <p>
-        The Reading Passage has nine sections, A–I. Which section contains the following information? Write the correct letter, A–I, in boxes 1–6 on your answer sheet.
+        The Reading Passage has nine sections, A–I. Which section contains the following information? 
+        Write the correct letter, A–I, in boxes 1–6 on your answer sheet.
       </p>
+      
       <p>
         <strong>1.</strong> an account of a national policy initiative
-        <input type="text" name="q1" style="width: 100px; height: 20px;" placeholder="(Answer)" />
+        <select name="q1" style="width: 100px; height: 20px;">
+          <option value="">(Answer)</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+        </select>
       </p>
+      
       <p>
         <strong>2.</strong> a description of a global team effort
-        <input type="text" name="q2" style="width: 100px; height: 20px;" placeholder="(Answer)" />
+        <select name="q2" style="width: 100px; height: 20px;">
+          <option value="">(Answer)</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+        </select>
       </p>
+      
       <p>
         <strong>3.</strong> a hypothesis as to one reason behind the growth in classroom noise
-        <input type="text" name="q3" style="width: 100px; height: 20px;" placeholder="(Answer)" />
+        <select name="q3" style="width: 100px; height: 20px;">
+          <option value="">(Answer)</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+        </select>
       </p>
+      
       <p>
         <strong>4.</strong> a demand for suitable worldwide regulations
-        <input type="text" name="q4" style="width: 100px; height: 20px;" placeholder="(Answer)" />
+        <select name="q4" style="width: 100px; height: 20px;">
+          <option value="">(Answer)</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+        </select>
       </p>
+      
       <p>
         <strong>5.</strong> a list of medical conditions which place some children more at risk from noise than others
-        <input type="text" name="q5" style="width: 100px; height: 20px;" placeholder="(Answer)" />
+        <select name="q5" style="width: 100px; height: 20px;">
+          <option value="">(Answer)</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+        </select>
       </p>
+      
       <p>
         <strong>6.</strong> the estimated proportion of children in New Zealand with auditory problems.
-        <input type="text" name="q6" style="width: 100px; height: 20px;" placeholder="(Answer)" />
+        <select name="q6" style="width: 100px; height: 20px;">
+          <option value="">(Answer)</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+          <option value="E">E</option>
+          <option value="F">F</option>
+          <option value="G">G</option>
+          <option value="H">H</option>
+          <option value="I">I</option>
+        </select>
       </p>
     </section>
+    
       
     <!-- //////////////////////////////////////////////////// QUESTIONS 7-10 (Reading Passage 5: Short Answer) //////////////////////////////////////////////////// -->
     <section style="border: 1px solid #000; padding: 10px; margin-bottom: 20px;">
@@ -116,13 +190,22 @@
       </p>
       <p>
         <strong>11.</strong> (Answer)
-        <input type="text" name="q11" style="width: 100px; height: 20px;" placeholder="(A–F)" />
+        <input type="text" name="q11" list="options-q11" style="width: 100px; height: 20px; border: 1px solid #000;" placeholder="" />
+        <datalist id="options-q11">
+          <option value="A">
+          <option value="C">
+        </datalist>
       </p>
       <p>
         <strong>12.</strong> (Answer)
-        <input type="text" name="q12" style="width: 100px; height: 20px;" placeholder="(A–F)" />
+        <input type="text" name="q12" list="options-q12" style="width: 100px; height: 20px; border: 1px solid #000;" placeholder="" />
+        <datalist id="options-q12">
+          <option value="A">
+          <option value="C">
+        </datalist>
       </p>
     </section>
+    
       
     <!-- //////////////////////////////////////////////////// QUESTION 13 (Reading Passage 5: Multiple Choice) //////////////////////////////////////////////////// -->
     <section style="border: 1px solid #000; padding: 10px; margin-bottom: 20px;">
@@ -150,8 +233,8 @@
         "q8": "crowd (noise)",
         "q9": "invisible (disability/ disabilities)",
         "q10": "Objective 3",
-        "q11": "A",
-        "q12": "C",
+        "q11": ["A", "C"],
+        "q12": ["A", "C"],
         "q13": "C"
       } -->
       
